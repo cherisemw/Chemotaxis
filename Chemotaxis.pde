@@ -24,8 +24,8 @@ class Bacteria {
   }
 
   void move() {
-    myX = myX + (int)((Math.random()*3)-1);
-    myY = myY + (int)((Math.random()*3)-1);
+    myX = myX + (int)((Math.random()*4)-2);
+    myY = myY + (int)((Math.random()*4)-2);
   }
   
   void show() {
